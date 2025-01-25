@@ -5,6 +5,8 @@ import { MNUENOMICS } from "./config";
 import cors from "cors";
 import { Client } from "pg";
 
+
+//Postgres url form neontech...
 const client = new Client("postgresql://neondb_owner:npg_tWw5LTrhNgx6@ep-calm-shadow-a8pomceu-pooler.eastus2.azure.neon.tech/neondb?sslmode=require");
 client.connect();
 
