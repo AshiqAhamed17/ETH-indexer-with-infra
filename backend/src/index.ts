@@ -40,6 +40,7 @@ app.post("/signup", async (req, res) => {
     })
 })
 
+//Returns deposit address of the user
 app.get("/depositAddress/:userId", (req, res) => {
     
 })

@@ -18,6 +18,7 @@ const bip39_1 = require("bip39");
 const config_1 = require("./config");
 const cors_1 = __importDefault(require("cors"));
 const pg_1 = require("pg");
+//Postgres url form neontech...
 const client = new pg_1.Client("postgresql://neondb_owner:npg_tWw5LTrhNgx6@ep-calm-shadow-a8pomceu-pooler.eastus2.azure.neon.tech/neondb?sslmode=require");
 client.connect();
 const seed = (0, bip39_1.mnemonicToSeedSync)(config_1.MNUENOMICS);
